@@ -1,0 +1,14 @@
+body{
+	font-family: sans-serif;
+}
+div.contenedor div.contenedor-equi{
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.contenedor-tours{
+	margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background: #00C4B5;
+}

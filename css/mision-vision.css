@@ -1,0 +1,17 @@
+div.contenedor article{
+  border: 1px solid #00C4B5;
+}
+#mision-vision article{
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+#mision-vision .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mision-vision article{
+  margin: 15px;
+  padding: 30px;
+}

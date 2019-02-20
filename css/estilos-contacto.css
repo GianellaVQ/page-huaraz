@@ -1,0 +1,120 @@
+body{
+  font-family: sans-serif;
+}
+.contacto{
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.formulario{
+  height: 600px;
+  width: 700px;
+  border-top: 2px solid #00C4B5;
+  border-bottom: 2px solid #00C4B5;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.formulario input{
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+.formulario textarea{
+  padding: 10px;
+  margin: 20px;
+}
+
+.text{
+  height: 30px;
+  width: 600px;
+  border-radius: 10px;
+  border: 2px solid #00C4B5;
+}
+.textarea{
+  height: 150px;
+  width: 650px;
+  border-radius: 10px;
+  border: 2px solid #00C4B5;
+}
+
+.boton{
+  height: 80px;
+  width: 600px;
+  border-radius: 10px;
+  border: 2px solid #00C4B5;
+  background: #00C4B5;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+@media (max-width:768px){
+  .contacto{
+    margin-top: 50px;
+  }
+  .formulario{
+    height: 600px;
+    width: 700px;
+    border-top: 2px solid #00C4B5;
+    border-bottom: 2px solid #00C4B5;
+    margin: 10px;
+    padding: 20px;
+  }
+}
+@media (max-width:480px){
+  .contacto{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150%;
+    width: 300px;
+    text-align: justify;
+  }
+  .contacto h1{
+    text-align: center;
+  }
+  .formulario{
+    height: 400px;
+    width: 300px;
+    border-top: 2px solid #00C4B5;
+    border-bottom: 2px solid #00C4B5;
+    margin: 10px;
+
+  }
+
+  .formulario input{
+    padding: 5px;
+    margin: 5px;
+
+  }
+  .formulario textarea{
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .text{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #00C4B5;
+  }
+  .textarea{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #00C4B5;
+
+  }
+  .boton{
+    height: 50px;
+    width: 310px;
+    border-radius: 10px;
+    border: 2px solid #00C4B5;
+    background: #00C4B5;
+    color: #fff;
+    font-size: 20px;
+  }
+}

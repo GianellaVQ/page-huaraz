@@ -1,0 +1,11 @@
+#tours-huaraz {
+  background: #00C4B5;
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+}
+#tours-huaraz .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

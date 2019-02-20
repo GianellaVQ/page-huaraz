@@ -1,0 +1,31 @@
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div.persona article.contenido-per{
+  border: none;
+}
+.persona{
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  border-left: 3px solid #00C4B5;
+  text-align: center;
+}
+
+.persona img{
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 7px solid #00C4B5;
+}
+
+@media (max-width:768px){
+  .persona{
+    width: 400px;
+    border-left: 3px solid #00C4B5;
+    border-right: 2px solid #00C4B5;
+  }
+}
